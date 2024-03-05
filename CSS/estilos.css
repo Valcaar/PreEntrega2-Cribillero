@@ -66,3 +66,267 @@
 }
 
 /* fin jumbotron */
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo img{
+    width: 100px;
+    height: 50px;
+}
+
+.barra a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.barra a:hover {
+    color: rgb(210, 9, 177);
+}
+
+/* carousel */
+#carouselExampleIndicators {
+    height: 500px;
+    margin: auto;
+}
+
+@media (max-width: 576px) { 
+    #carouselExampleIndicators {
+        width: 80%; 
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) { 
+    #carouselExampleIndicators {
+        width: 70%; 
+    }
+}
+
+@media (min-width: 992px) {
+    #carouselExampleIndicators {
+        width: 50%; 
+    }
+}
+
+/* fin carousel */
+
+.call h1{
+    color: white;
+    width: 100%;
+    padding: 238px;
+    text-align: center;
+    font-size: 62px;
+    text-shadow: 2px 2px 10px #000000;
+}
+
+
+#Titulo .row #sec1{
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: darkblue;
+}
+
+.row .innerSec1{
+    text-align:c center ;
+}
+
+.seccion{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 130px;
+    margin-top: 10px;
+}
+
+.bloque {
+    text-align: center;
+    margin:20px
+}
+
+.bloque img {
+    width: 100px; 
+    height: auto;
+}
+
+.bloque p {
+    margin-top: 10px;
+    text-align: center; 
+}
+
+/* comienzo slider para opinion de clientes */
+
+.bloque-slider{
+    text-align: center;
+}
+
+.bloque-slider img{
+    width: 100px; 
+    height: auto;
+}
+
+#sec1{
+    margin-bottom: 20px;
+}
+.innerSec1{
+    margin-bottom: 70px;
+}
+
+.bloque-slider p {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* fin slider */
+
+.innerSec2{
+    text-align: center;
+}
+
+.bloque-boton {
+    text-align: center;
+    margin:20px
+}
+
+.bloque-boton img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.bloque-boton h2 {
+    margin-top: 10px;
+}
+
+.bloque-boton .boton {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #92225f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.bloque-boton .boton:hover {
+    background-color: #6d174e;
+}
+
+
+
+/*Galeria*/
+
+.text-gale h1{
+    color: #000000;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+.text-gale h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.galeria img {
+    max-width: 100%;
+}
+
+.jumbotron-galeria{
+    background-color: transparent;
+}
+
+/* fin galeria */
+
+/*Formulario Contacto*/
+
+main .contacto h1{
+    color: #ffd0ea;
+    text-align: center;
+    padding: 20px;
+}
+
+main .contacto{
+    background-color: #ffffff;
+    padding-bottom: 10%;
+}
+
+form{
+    margin-top: 20px;
+    margin-left: 35%;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input,
+textarea {
+    display:  block;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #ffd0ea;
+    border-radius: 2px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btnFormulario {
+    background-color: rgb(243, 176, 255);
+    color: #000000;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.bloque-contacto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 130px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.telefono{
+    text-align: center;
+    margin: 30px;
+}
+
+.correo-electronico{
+    text-align: center;
+    margin: 30px;
+}
+
+.ubicacion{
+    text-align: center;
+    margin: 30px;
+}
+
+/* fin formulario */
+
+/*Footer*/
+
+.logo-footer{
+    width: 250px;
+    height: 125px;
+}
+
+.social-icons img{
+    height: 40px;
+    width: 40px;
+}
+
+.footer{
+    background-color: #2d2f46;
+}
+
+/* fin Footer */
