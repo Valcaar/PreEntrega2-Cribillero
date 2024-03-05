@@ -9,7 +9,7 @@
 /* inicio navbar */
 
 .navbar {
-    background-color: rgb(162, 162, 207);
+    background-color: rgb(224, 224, 245);
     height: 70px;
 }
 .navbar-collapse{
@@ -18,16 +18,16 @@
 }
 
 .navbar-brand {
-    color: rgb(142, 142, 142) !important;
+    color: rgb(117, 115, 115) !important;
 }
 
 .nav-link {
-    color: #fff !important;
+    color: #201f1f !important;
     font-size: 20px;
 }
 
 .nav-link:hover {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(101, 69, 176) !important;
 }
 
 @media (max-width: 576px) {
