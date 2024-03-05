@@ -176,46 +176,12 @@
 }
 
 .bloque-slider p {
-    margin-bottom: 20px;
+    margin-bottom: 90px;
     margin-top: 10px;
     text-align: center;
 }
 
 /* fin slider */
-
-.innerSec2{
-    text-align: center;
-}
-
-.bloque-boton {
-    text-align: center;
-    margin:20px
-}
-
-.bloque-boton img {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-}
-
-.bloque-boton h2 {
-    margin-top: 10px;
-}
-
-.bloque-boton .boton {
-    display: inline-block;
-    padding: 10px 25px;
-    background-color: #92225f;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 15px;
-}
-
-.bloque-boton .boton:hover {
-    background-color: #6d174e;
-}
-
 
 
 /*Galeria*/
