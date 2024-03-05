@@ -37,3 +37,32 @@
     }
 }
 /* fin navbar */
+
+/* inicio jumbotron */
+.jumbotron {
+    background-image: url('/multimedia/Atacama3.jpeg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px; 
+    height: 700px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 576px) {
+    .jumbotron {
+        background-size: cover; 
+        padding-top: 50px;
+        padding-bottom: 50px; 
+    }
+}
+.display-4 {
+    text-align: center;
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(19, 10, 10, 0.5); 
+}
+
+/* fin jumbotron */
